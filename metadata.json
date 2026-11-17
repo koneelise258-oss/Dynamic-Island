@@ -1,0 +1,6 @@
+{
+  "name": "Mike Dynamic Island",
+  "description": "Face ID animation engine, smart Dynamic Island live activities, Samsung Now Bar experience, and Quick Glass UI optimized for Android 10 and low-RAM devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

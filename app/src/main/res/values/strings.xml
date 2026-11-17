@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Mike Dynamic Island</string>
+    <string name="notification_listener_label">Mike Dynamic Island — Notifications &amp; Médias</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_face_id">Face ID</string>
+    <string name="nav_island">Island</string>
+    <string name="nav_quick_glass">Quick Glass</string>
+    <string name="nav_settings">Réglages</string>
+
+    <!-- All 12 Module Screen Titles -->
+    <string name="screen_home_title">Mike Dynamic Island</string>
+    <string name="screen_face_id_title">Face ID Animation</string>
+    <string name="screen_island_title">Dynamic Island</string>
+    <string name="screen_quick_glass_title">Quick Glass</string>
+    <string name="screen_activities_title">Activités Now Bar</string>
+    <string name="screen_notifications_title">Notifications</string>
+    <string name="screen_music_title">Musique &amp; Médias</string>
+    <string name="screen_appearance_title">Apparence</string>
+    <string name="screen_customization_title">Personnalisation</string>
+    <string name="screen_privacy_title">Confidentialité</string>
+    <string name="screen_permissions_title">Permissions</string>
+    <string name="screen_diagnostic_title">Diagnostic &amp; Tests</string>
+
+    <!-- Service & Foreground Notification -->
+    <string name="fgs_channel_name">Moteur Mike Dynamic Island</string>
+    <string name="fgs_channel_desc">Maintient l\'animation Face ID et l\'îlot d\'activités en direct</string>
+    <string name="fgs_title">Mike Dynamic Island actif</string>
+    <string name="fgs_subtitle">Veille légère — Face ID &amp; Activités en direct</string>
+    <string name="fgs_action_stop">Arrêter</string>
+
+    <!-- Common Actions -->
+    <string name="action_back">Retour</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Reprendre</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_start">Démarrer</string>
+    <string name="action_reset">Réinitialiser</string>
+    <string name="action_lap">Tour</string>
+    <string name="action_dismiss">Ignorer</string>
+    <string name="action_snooze">Répéter 5m</string>
+    <string name="action_test_face_id">Tester Face ID</string>
+    <string name="action_test_interrupt">Simuler interruption</string>
+    <string name="action_grant_permission">Autoriser</string>
+    <string name="action_granted">Autorisé</string>
+    <string name="action_missing">Requis</string>
+
+    <!-- Face ID Honesty / Degraded Mode -->
+    <string name="face_id_degraded_title">Mode Dégradé — Événement système Android</string>
+    <string name="face_id_degraded_desc">Android 10 et HiOS 6.0 n\'exposent pas d\'API publique confirmant un déverrouillage facial par rapport au PIN ou au schéma. Mike déclenche l\'animation sur les événements réels SCREEN_ON et USER_PRESENT (Keyguard) sans jamais simuler de résultat biométrique.</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="cd_face_scan_preview">Aperçu animé du scan Face ID autour de la caméra frontale</string>
+    <string name="cd_dynamic_island_preview">Aperçu interactif de la Dynamic Island</string>
+    <string name="cd_quick_glass_backdrop">Arrière-plan vitré Quick Glass</string>
+    <string name="cd_app_emblem">Emblème Mike Dynamic Island</string>
+    <string name="cd_album_art">Pochette de l\'album en cours de lecture</string>
+    <string name="cd_play_pause">Lecture ou pause du média</string>
+    <string name="cd_prev_track">Piste précédente</string>
+    <string name="cd_next_track">Piste suivante</string>
+</resources>
